@@ -26,7 +26,7 @@ document.getElementById("calculateButton").addEventListener("click", function() 
 });
 
 function calculate() {
-    var name = document.getElementById("name").value
+    var name = document.getElementById("name").value;
     var adults = document.getElementById("adults").value !== '' ? parseInt(document.getElementById("adults").value) : 0;
     var children10_15 = document.getElementById("children10_15").value !== '' ? parseInt(document.getElementById("children10_15").value) : 0;
     var children_lt_10 = document.getElementById("children_lt_10").value !== '' ? parseInt(document.getElementById("children_lt_10").value) : 0;
