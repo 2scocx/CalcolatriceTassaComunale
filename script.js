@@ -54,7 +54,7 @@ function calculate() {
     var totalAmount = total * nightsForTax;
 
     var result = document.getElementById("result");
-    result.innerHTML = "Total City Tax for " + totalNights + " nights: " + totalAmount + " euro. Enjoy your stay"+ name +"!!";
+    result.innerHTML = "Total City Tax for " + totalNights + " nights: " + totalAmount + " euro. Enjoy your stay "+ name +"!!";
 }
 
 document.getElementById("calculateButton").addEventListener("click", function() {
