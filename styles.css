@@ -47,7 +47,11 @@ body {
     display: block;
     margin-bottom: 10px;
 }
-
+.calculator input[type="text"] {
+    width: calc(100% - 20px); /* Take up 100% width minus padding */
+    padding: 10px;
+    margin-bottom: 10px;
+}
 .calculator input {
     width: calc(100% - 20px);
     padding: 10px;
